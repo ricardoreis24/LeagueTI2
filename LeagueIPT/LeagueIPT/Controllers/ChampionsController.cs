@@ -25,10 +25,7 @@ namespace LeagueIPT.Controllers
                 })
                 .ToList();
 
-            if (champs.Count == 0)
-            {
-                return NotFound();
-            }
+           
 
 
             return Ok(champs);

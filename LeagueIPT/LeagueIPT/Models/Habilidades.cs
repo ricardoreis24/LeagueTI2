@@ -17,7 +17,6 @@ namespace LeagueIPT.Models
         public string Imagem { get; set; }
         public string Range { get; set; }
         public string CoolDown { get; set; }
-        public string Role { get; set; }
         [ForeignKey("Champion")]
         public  int IdChampion { get; set; }
 
