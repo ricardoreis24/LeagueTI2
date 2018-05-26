@@ -9,5 +9,6 @@ namespace LeagueIPT.DTO
     {
         public int ID { get; set; }
         public string Pic { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -21,7 +21,8 @@ namespace LeagueIPT.Controllers
                 .Select(c => new GetChamps
                 {
                     ID = c.ID,
-                    Pic = c.ProfilePic
+                    Pic = c.ProfilePic,
+                    Name = c.Nome
                 })
                 .ToList();
 

@@ -198,6 +198,7 @@
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\bootstrap\js\bootstrap.min.js" />
     <Content Include="assets\css\Footer-Basic.css" />
+    <Content Include="assets\css\funcionalidade.css" />
     <Content Include="assets\css\Highlight-Clean.css" />
     <Content Include="assets\css\Navigation-with-Search.css" />
     <Content Include="assets\css\styles.css" />
@@ -292,7 +293,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53787</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

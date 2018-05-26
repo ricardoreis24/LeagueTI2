@@ -11,3 +11,12 @@ function getChamps() {
         });
 
 }
+
+function getDetalhes(champId) {
+    var url = `/api/champions/${champId}/`;
+    return fetch(url, { headers: { Accept: "application/json" } })
+            .then(function(respostaServidor) {
+                return respostaServidor.json();
+            });
+
+}
