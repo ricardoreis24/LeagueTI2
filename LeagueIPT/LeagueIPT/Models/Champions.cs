@@ -24,6 +24,8 @@ namespace LeagueIPT.Models
         public string Descricao { get; set; }
         public string Imagem { get; set; }
         public string ProfilePic { get; set; }
+        public string Lane { get; set; }
+        public string Job { get; set; }
         public virtual ICollection<Habilidades> ListaHabilidates { get; set; } = new HashSet<Habilidades>();
     }
 }

@@ -33,6 +33,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Diver",
                     Descricao = "Aatrox? Is this a champion? I dont know cause nobody plays this sh*t... ",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/67/Aatrox_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201907",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Aatrox_OriginalCircle.png/revision/latest?cb=20171112084905"
 
@@ -52,6 +54,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Mage",
                     Descricao = "Easy champ to play, girls love her. She has 3 dashes so you could run away...",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Slayer.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ahri_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201908",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2c/Ahri_OriginalCircle.png/revision/latest?cb=20171112084906"
 
@@ -71,6 +75,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 350,
                     Role = "Assassin",
                     Descricao = "Q + Basic ... ops you're dead. Also you can be invisible with your W and you can run way with R.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Slayer.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c5/Akali_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201909",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Akali_OriginalCircle.png/revision/latest?cb=20171112084906"
 
@@ -90,6 +96,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Support",
                     Descricao = "It's a cow... what more can I say",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Alistar_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201910",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Alistar_OriginalCircle.png/revision/latest?cb=20171112084906"
 
@@ -109,6 +117,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Tank",
                     Descricao = "Tank jungle always crying with an ok ult if used correctly",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Tank.png/revision/latest/scale-to-width-down/119?cb=20161117175202",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b4/Amumu_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201911",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Amumu_OriginalCircle.png/revision/latest?cb=20171112084907"
 
@@ -128,6 +138,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao = "Boring champion... Her passive is AIDS, if you die you became an Egg and you dont die. You have to kill her and kill her again in Egg form...",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Anivia_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201911",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Anivia_OriginalCircle.png/revision/latest?cb=20171112084907"
 
@@ -147,6 +159,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao = "You have no items but you pressed R? Oh look, you got yourself a kill... Also, I feel asleep playing with her.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Annie_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201912",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Annie_OriginalCircle.png/revision/latest?cb=20171112084908"
 
@@ -166,6 +180,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Marksman",
                     Descricao = "Ashe has a good kit but nobody plays her, dont know why.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b8/Ashe_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201913",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Ashe_OriginalCircle.png/revision/latest?cb=20171112084909"
 
@@ -185,6 +201,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao = "Boring champ... You just run with your W on, doing damage.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Aurelion_Sol_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201914",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Aurelion_Sol_OriginalCircle.png/revision/latest?cb=20171112084909"
 
@@ -204,6 +222,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Mage",
                     Descricao = "Call him Donald Trump cause his Ult places a wall that kicks you back. Super effective against Mexicans",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/0/03/Azir_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201914",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Azir_OriginalCircle.png/revision/latest?cb=20171112084909"
 
@@ -223,6 +243,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Support",
                     Descricao = "Good if you have him on your team.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/40/Bard_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201951",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cb/Bard_OriginalCircle.png/revision/latest?cb=20171112085141"
 
@@ -242,6 +264,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Support",
                     Descricao = "If he grabs you, you'll burn flash and you'll still die.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Tank.png/revision/latest/scale-to-width-down/119?cb=20161117175202",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Blitzcrank_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201951",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Blitzcrank_OriginalCircle.png/revision/latest?cb=20171112085142"
 
@@ -261,6 +285,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Mage",
                     Descricao = "People who play Brand support have no life... You can quote me on that",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Brand_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201952",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6d/Brand_OriginalCircle.png/revision/latest?cb=20171112085143"
 
@@ -280,6 +306,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Support",
                     Descricao = "ahhhh you're safe with Braum.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Tank.png/revision/latest/scale-to-width-down/119?cb=20161117175202",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Braum_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201953",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Braum_OriginalCircle.png/revision/latest?cb=20171112085143"
 
@@ -299,6 +327,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Marksman",
                     Descricao = "W spam = easy kills",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Caitlyn_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201954",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/90/Caitlyn_OriginalCircle.png/revision/latest?cb=20171112085442"
 
@@ -318,6 +348,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Bruiser",
                     Descricao = "You design camille should be fired.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Camille_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201955",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4c/Camille_OriginalCircle.png/revision/latest?cb=20171112085443"
 
@@ -337,6 +369,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 328,
                     Role = "Mage",
                     Descricao = "Its a snake for gods sake.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/23/Cassiopeia_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201955",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Cassiopeia_OriginalCircle.png/revision/latest?cb=20171112085443"
 
@@ -356,6 +390,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Tank",
                     Descricao = "Press R for a kill. Also you're tank as f*ck.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Tank.png/revision/latest/scale-to-width-down/119?cb=20161117175202",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Cho%27Gath_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201956",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/40/Cho%27Gath_OriginalCircle.png/revision/latest?cb=20171124185151"
 
@@ -375,6 +411,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Marksman",
                     Descricao = "He is fun, I guess",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Corki_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201957",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Corki_OriginalCircle.png/revision/latest?cb=20171112085444"
 
@@ -394,6 +432,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Tank",
                     Descricao = "Ahh do you like dunking on people? Than Darius is the champ for you.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/eb/Darius_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414201958",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Darius_OriginalCircle.png/revision/latest?cb=20171112085445"
 
@@ -413,6 +453,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Assassin",
                     Descricao = "Discount version of Akali with a bit more crowd control.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Slayer.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Diana_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202027",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c6/Diana_OriginalCircle.png/revision/latest?cb=20171112085750"
 
@@ -432,6 +474,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Tank",
                     Descricao = "Please don't play Mundo, he's too tanky. Hard to kill.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Tank.png/revision/latest/scale-to-width-down/119?cb=20161117175202",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Dr._Mundo_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202028",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/47/Dr._Mundo_OriginalCircle.png/revision/latest?cb=20171112085751"
 
@@ -451,6 +495,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Marksman",
                     Descricao = "Draven does it all.......",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/63/Draven_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202029",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Draven_OriginalCircle.png/revision/latest?cb=20171112085750"
 
@@ -470,6 +516,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Assassin",
                     Descricao = "You can one shot somebody and press R to go back to where you were a few moments back.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Slayer.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/33/Ekko_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202030",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Ekko_OriginalCircle.png/revision/latest?cb=20171112085751"
 
@@ -489,6 +537,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao = "You build tank and you deal tons of damage.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/af/Elise_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202031",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Elise_OriginalCircle.png/revision/latest?cb=20171112085752"
 
@@ -508,6 +558,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Mage",
                     Descricao = "After level 6 you're invisible. I hate people who play her.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Slayer.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Evelynn_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202031",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/88/Evelynn_OriginalCircle.png/revision/latest?cb=20171112085752"
 
@@ -527,6 +579,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Marksman",
                     Descricao = "Bad if you don't hit skill shots.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Ezreal_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202032",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fb/Ezreal_OriginalCircle.png/revision/latest?cb=20171112085753"
 
@@ -546,6 +600,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Mage",
                     Descricao = "He is annoying to play against.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Fiddlesticks_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202033",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Fiddlesticks_OriginalCircle.png/revision/latest?cb=20171112090226"
 
@@ -565,6 +621,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Bruiser",
                     Descricao = "Has a dash every few seconds plus deals trillions of damage while she heals for billions.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Fiora_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202034",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ce/Fiora_OriginalCircle.png/revision/latest?cb=20171112090227"
 
@@ -584,6 +642,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Assassin",
                     Descricao = "This champ should not be in the game. Has an ability that makes him invulnerable every few seconds",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Slayer.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/60/Fizz_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202034",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Fizz_OriginalCircle.png/revision/latest?cb=20171112090227"
 
@@ -603,6 +663,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Tank",
                     Descricao = "A tank that does damage. Thank you Riot Design team for this 'balanced' champion",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/5/51/Galio_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202110",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Galio_OriginalCircle.png/revision/latest?cb=20171112090228"
 
@@ -622,6 +684,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Bruiser",
                     Descricao = "Super fun to play. I love Gangplank because of Tobias fate. Google search him",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Gangplank_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202111",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Gangplank_OriginalCircle.png/revision/latest?cb=20171112090228"
 
@@ -641,6 +705,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Tank",
                     Descricao = "Omg he's so cute.... oh wtf he just transform himself into a big monster",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Gnar_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202113",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/aa/Gnar_OriginalCircle.png/revision/latest?cb=20171112090229"
 
@@ -660,6 +726,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Tank",
                     Descricao = "A fat Irish who is tank and loves beer... not even kidding",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Tank.png/revision/latest/scale-to-width-down/119?cb=20161117175202",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/33/Gragas_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202113",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Gragas_OriginalCircle.png/revision/latest?cb=20171112090230"
 
@@ -679,6 +747,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Marksman",
                     Descricao = "His ult is too strong",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Marksman.png/revision/latest?cb=20161117175201",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a5/Graves_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202114",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/36/Graves_OriginalCircle.png/revision/latest?cb=20171112090230"
 
@@ -698,6 +768,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Bruiser",
                     Descricao = "My little poney...",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3c/Hecarim_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202115",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/83/Hecarim_OriginalCircle.png/revision/latest?cb=20171112090231"
 
@@ -717,6 +789,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Mage",
                     Descricao = "THE DONGER!!!",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Heimerdinger_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202115",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8e/Heimerdinger_OriginalCircle.png/revision/latest?cb=20171112090709"
 
@@ -736,6 +810,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Bruiser",
                     Descricao = "She has tentacles. People you enjoy hentai play her a lot (xD)",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4b/Illaoi_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202116",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Illaoi_OriginalCircle.png/revision/latest?cb=20171112090710"
 
@@ -755,6 +831,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Bruiser",
                     Descricao = "Yeah she's good I guess",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Fighter.png/revision/latest/scale-to-width-down/120?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6f/Irelia_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414202117",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Irelia_OriginalCircle.png/revision/latest?cb=20180320200353"
 
@@ -774,6 +852,8 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Support",
                     Descricao = "You're a tree... You plays this champ??? You're a f*ucking tree. Who design this shoul've of been high at the moment.",
+                    Lane = "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
+                    Job = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Mage.png/revision/latest/scale-to-width-down/119?cb=20161117175200",
                     Imagem = "https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Ivern_OriginalCentered.jpg/revision/latest/scale-to-width-down/1215?cb=20180414203243",
                     ProfilePic = "https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Ivern_OriginalCircle.png/revision/latest?cb=20171112090711"
 
