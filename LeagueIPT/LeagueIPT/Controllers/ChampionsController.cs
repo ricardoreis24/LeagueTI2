@@ -35,24 +35,61 @@ namespace LeagueIPT.Controllers
         [HttpGet, Route("api/champions/{id}")]
         public IHttpActionResult GetChamps(int? id)
         {
+            Champions champ = _db.Champions.Find(id);
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var resultado = new
+            {
+                champ.ID,
+                champ.Nome,
+                champ.Nick,
+                champ.ReleaseDate,
+                champ.Atributo,
+                champ.Health,
+                champ.Range,
+                champ.AttackDamage,
+                champ.AttackSpeed,
+                champ.MovSpeed,
+                champ.Role,
+                champ.Descricao,
+                champ.Imagem,
+                champ.ProfilePic,
+                champ.Lane,
+                champ.Job,
+
+
+            };
+
+            return Ok(resultado);
+        }
+
+        [HttpGet, Route("api/champions/{id}/habilidades")]
+        public IHttpActionResult GetChamp(int? id)
+        {
+            Champions champion = _db.Champions.Find(id);
             if (id == null)
             {
                 return BadRequest();
             }
 
-            var champ = _db.Champions
-                .Where(c=> c.ID == id)
-                .Select(c => c)
-                .FirstOrDefault();
+            var habilidade = champion.ListaHabilidates
+                .Select(champi => new
+                {
+                    champi.Passiva,
+                    champi.Q,
+                    champi.W,
+                    champi.E,
+                    champi.R
 
-            if (champ == null)
-            {
-                return NotFound();
-            }
+                });
 
 
-            return Ok(champ);
+            return Ok(habilidade);
         }
+
+
 
 
     }

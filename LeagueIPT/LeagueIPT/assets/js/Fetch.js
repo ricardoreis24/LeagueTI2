@@ -24,3 +24,16 @@ function getDetalhes(champId) {
         });
 
 }
+
+function getHabilidades(champId) {
+    var url = "/api/champions/" + champId +"/habilidades" ;
+    return fetch(url, { headers: { Accept: "application/json" } })
+        .then(function (respostaServidor) {
+            if (respostaServidor.status === 200) {
+                return respostaServidor.json();
+            } else {
+                return Promise.reject(new Error("Erro ao obter champion"));
+            }
+        });
+
+}

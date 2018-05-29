@@ -344,6 +344,83 @@
             td7.textContent = champion.ReleaseDate;
             tr7.appendChild(td7);
 
+            //coluna 3
+            const divCol3 = document.createElement("div");
+            divCol3.setAttribute("class", "col-md-4 col-lg-6");
+            divCol3.setAttribute("style", "padding-right:0px;padding-left:0px;");
+            divRow.appendChild(divCol3);
+
+            const spam1 = document.createElement("spam");
+            spam1.setAttribute("class", "counter pull-right");
+            divCol3.appendChild(spam1);
+
+            const table1 = document.createElement("table");
+            table1.setAttribute("class", "table table-hover table-bordered results");
+            divCol3.appendChild(table1);
+
+            const tbody1 = document.createElement("tbody");
+            table1.appendChild(tbody1);
+
+
+            //cell 1
+            const tr11 = document.createElement("tr");
+            tbody1.appendChild(tr11);
+            const th11 = document.createElement("th");
+            th11.setAttribute("scope", "row");
+            th11.textContent = "Passive";
+            tr11.appendChild(th11);
+            const td11 = document.createElement("td");
+            td11.textContent = champion.Passiva;
+            tr11.appendChild(td11);
+
+
+            //cel 2
+            const tr12 = document.createElement("tr");
+            tbody1.appendChild(tr12);
+            const th12 = document.createElement("th");
+            th12.setAttribute("scope", "row");
+            th12.textContent = "Q";
+            tr12.appendChild(th12);
+            const td12 = document.createElement("td");
+            td12.textContent = champion.Q;
+            tr12.appendChild(td12);
+
+
+            //cel 3
+            const tr13 = document.createElement("tr");
+            tbody1.appendChild(tr13);
+            const th13 = document.createElement("th");
+            th13.setAttribute("scope", "row");
+            th13.textContent = "W";
+            tr13.appendChild(th12);
+            const td13 = document.createElement("td");
+            td13.textContent = champion.W;
+            tr13.appendChild(td13);
+
+
+            //cel 4
+            const tr14 = document.createElement("tr");
+            tbody1.appendChild(tr14);
+            const th14 = document.createElement("th");
+            th14.setAttribute("scope", "row");
+            th14.textContent = "E";
+            tr14.appendChild(th14);
+            const td14 = document.createElement("td");
+            td14.textContent = champion.E;
+            tr14.appendChild(td14);
+
+
+            //cel 5
+            const tr15 = document.createElement("tr");
+            tbody1.appendChild(tr15);
+            const th15 = document.createElement("th");
+            th15.setAttribute("scope", "row");
+            th15.textContent = "R";
+            tr15.appendChild(th15);
+            const td15 = document.createElement("td");
+            td15.textContent = champion.R;
+            tr15.appendChild(td15);
+
         }
 
         async function ecrachamps() {
