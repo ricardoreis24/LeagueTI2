@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using LeagueIPT.Models;
 
-namespace LeagueIPT.Models
+namespace LeagueIPT.DTO
 {
-    public class Champions
+    public class GetChamp
     {
-
-        [Key] public int ID { get; set; }
-
+        public int ID { get; set; }
         public string Nome { get; set; }
         public string Nick { get; set; }
         public DateTime ReleaseDate { get; set; }
@@ -26,6 +24,18 @@ namespace LeagueIPT.Models
         public string ProfilePic { get; set; }
         public string Lane { get; set; }
         public string Job { get; set; }
-        public virtual ICollection<Habilidades> ListaHabilidades { get; set; }
+        public ICollection<Habilidades> LHabilidades { get; set; }
+
+
+        public class Habilidades
+        {
+            public int ID { get; set; }
+
+            public string Passiva { get; set; }
+            public string Q { get; set; }
+            public string W { get; set; }
+            public string E { get; set; }
+            public string R { get; set; }
+        }
     }
 }

@@ -17,6 +17,7 @@ function getDetalhes(champId) {
     return fetch(url, { headers: { Accept: "application/json" } })
         .then(function (respostaServidor) {
             if (respostaServidor.status === 200) {
+                console.log(respostaServidor);
                 return respostaServidor.json();
             } else {
                 return Promise.reject(new Error("Erro ao obter champion"));

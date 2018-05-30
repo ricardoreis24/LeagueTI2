@@ -26,47 +26,104 @@ namespace LeagueIPT.Controllers
                 })
                 .ToList();
 
-           
+
 
 
             return Ok(champs);
         }
 
+        //[HttpGet, Route("api/champions/{id}")]
+        //public IHttpActionResult GetChamp(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    Champions champ = _db.Champions.Find(id);
+
+        //    var resultado = new
+        //    {
+        //        champ.ID,
+        //        champ.Nome,
+        //        champ.Nick,
+        //        champ.ReleaseDate,
+        //        champ.Atributo,
+        //        champ.Health,
+        //        champ.Range,
+        //        champ.AttackDamage,
+        //        champ.AttackSpeed,
+        //        champ.MovSpeed,
+        //        champ.Role,
+        //        champ.Descricao,
+        //        champ.Imagem,
+        //        champ.ProfilePic,
+        //        champ.Lane,
+        //        champ.Job,
+
+
+        //    };
+
+        //    return Ok(resultado);
+        //}
+
         [HttpGet, Route("api/champions/{id}")]
-        public IHttpActionResult GetChamps(int? id)
+        public IHttpActionResult GetChamp(int? id)
         {
-            Champions champ = _db.Champions.Find(id);
             if (id == null)
+            {
+                return BadRequest();
+            }
+
+            var champion = _db.Champions
+                .Include(c => c.ListaHabilidades)
+                .Where(c => c.ID == id)
+                .Select(champ => new GetChamp
+                {
+                    ID = champ.ID,
+                    Nome = champ.Nome,
+                    Nick = champ.Nick,
+                    ReleaseDate = champ.ReleaseDate,
+                    Atributo = champ.Atributo,
+                    Health = champ.Health,
+                    Range = champ.Range,
+                    AttackDamage = champ.AttackDamage,
+                    AttackSpeed = champ.AttackSpeed,
+                    MovSpeed = champ.MovSpeed,
+                    Role = champ.Role,
+                    Descricao = champ.Descricao,
+                    Imagem = champ.Imagem,
+                    ProfilePic = champ.ProfilePic,
+                    Lane = champ.Lane,
+                    Job = champ.Job,
+                    LHabilidades = champ.ListaHabilidades
+                        .Select(a => new GetChamp.Habilidades
+                        {
+                            ID = a.ID,
+                            Passiva = a.Passiva,
+                            Q = a.Q,
+                            W = a.W,
+                            E = a.E,
+                            R = a.R
+                        }).ToList()
+                }).FirstOrDefault();
+
+            //var resultado = new
+            //{
+
+
+            //};
+
+            if (champion == null)
             {
                 return NotFound();
             }
-            var resultado = new
-            {
-                champ.ID,
-                champ.Nome,
-                champ.Nick,
-                champ.ReleaseDate,
-                champ.Atributo,
-                champ.Health,
-                champ.Range,
-                champ.AttackDamage,
-                champ.AttackSpeed,
-                champ.MovSpeed,
-                champ.Role,
-                champ.Descricao,
-                champ.Imagem,
-                champ.ProfilePic,
-                champ.Lane,
-                champ.Job,
 
-
-            };
-
-            return Ok(resultado);
+            return Ok(champion);
         }
 
         [HttpGet, Route("api/champions/{id}/habilidades")]
-        public IHttpActionResult GetChamp(int? id)
+        public IHttpActionResult GetAbilities(int? id)
         {
             Champions champion = _db.Champions.Find(id);
             if (id == null)
@@ -74,7 +131,7 @@ namespace LeagueIPT.Controllers
                 return BadRequest();
             }
 
-            var habilidade = champion.ListaHabilidates
+            var habilidade = champion.ListaHabilidades
                 .Select(champi => new
                 {
                     champi.Passiva,

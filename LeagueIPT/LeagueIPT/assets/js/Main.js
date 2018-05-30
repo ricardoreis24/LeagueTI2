@@ -168,13 +168,14 @@
             tabDesc.appendChild(br);
 
             //imagem principal
-            const img = document.createElement("img");
-            img.setAttribute("src", champion.Imagem);
-            img.setAttribute("style", "width:100%; background-position:top;background-size:cover;background-repeat:no-repeat;height:350px;");
+            //const img = document.createElement("img");
+            const imgDiv = document.createElement("div");
+            //img.setAttribute("src", champion.Imagem);
+            //img.setAttribute("style", "width:100%; background-position:top;background-size:cover;background-repeat:no-repeat;height:350px;");
             //meti o cod de cima numa class mas nem isso resultou.
             //img.setAttribute("class", "imagem");
-            //img.setAttribute("style", `${`background-image:url("${champion.Imagem}");`} width:100%; background-position:top;background-size:cover;background-repeat:no-repeat;height:300px`);
-            tabConteudo.appendChild(img);
+            imgDiv.setAttribute("style", `${`background-image:url("${champion.Imagem}");`} width:100%; background-position:top;background-size:cover;background-repeat:no-repeat;height:375px`);
+            tabConteudo.appendChild(imgDiv);
 
             //tab numero 2. Este ira ter mais informações sobre o champ
             const tabConteudo2 = document.createElement("div");
@@ -347,9 +348,13 @@
             //coluna 3
             const divCol3 = document.createElement("div");
             divCol3.setAttribute("class", "col-md-4 col-lg-6");
-            divCol3.setAttribute("style", "padding-right:0px;padding-left:0px;");
+            const divTit = document.createElement("h4");
+            divTit.setAttribute("class","text-center");
+            divTit.setAttribute("style", "padding-bottom:13px;");
+            divTit.textContent = "Abilities";
             divRow.appendChild(divCol3);
-
+            divCol3.appendChild(divTit);
+       
             const spam1 = document.createElement("spam");
             spam1.setAttribute("class", "counter pull-right");
             divCol3.appendChild(spam1);
@@ -370,57 +375,52 @@
             th11.textContent = "Passive";
             tr11.appendChild(th11);
             const td11 = document.createElement("td");
-            td11.textContent = champion.Passiva;
+            td11.textContent = champion.LHabilidades[0].Passiva;
             tr11.appendChild(td11);
 
+            //cell 2
+            const tr22 = document.createElement("tr");
+            tbody1.appendChild(tr22);
+            const th22 = document.createElement("th");
+            th22.setAttribute("scope", "row");
+            th22.textContent = "Q";
+            tr22.appendChild(th22);
+            const td22 = document.createElement("td");
+            td22.textContent = champion.LHabilidades[0].Q;
+            tr22.appendChild(td22);
 
-            //cel 2
-            const tr12 = document.createElement("tr");
-            tbody1.appendChild(tr12);
-            const th12 = document.createElement("th");
-            th12.setAttribute("scope", "row");
-            th12.textContent = "Q";
-            tr12.appendChild(th12);
-            const td12 = document.createElement("td");
-            td12.textContent = champion.Q;
-            tr12.appendChild(td12);
+            //cell 3
+            const tr33 = document.createElement("tr");
+            tbody1.appendChild(tr33);
+            const th33 = document.createElement("th");
+            th33.setAttribute("scope", "row");
+            th33.textContent = "W";
+            tr33.appendChild(th33);
+            const td33 = document.createElement("td");
+            td33.textContent = champion.LHabilidades[0].W;
+            tr33.appendChild(td33);
 
+            //cell 5
+            const tr44 = document.createElement("tr");
+            tbody1.appendChild(tr44);
+            const th44 = document.createElement("th");
+            th44.setAttribute("scope", "row");
+            th44.textContent = "E";
+            tr44.appendChild(th44);
+            const td44 = document.createElement("td");
+            td44.textContent = champion.LHabilidades[0].E;
+            tr44.appendChild(td44);
 
-            //cel 3
-            const tr13 = document.createElement("tr");
-            tbody1.appendChild(tr13);
-            const th13 = document.createElement("th");
-            th13.setAttribute("scope", "row");
-            th13.textContent = "W";
-            tr13.appendChild(th12);
-            const td13 = document.createElement("td");
-            td13.textContent = champion.W;
-            tr13.appendChild(td13);
-
-
-            //cel 4
-            const tr14 = document.createElement("tr");
-            tbody1.appendChild(tr14);
-            const th14 = document.createElement("th");
-            th14.setAttribute("scope", "row");
-            th14.textContent = "E";
-            tr14.appendChild(th14);
-            const td14 = document.createElement("td");
-            td14.textContent = champion.E;
-            tr14.appendChild(td14);
-
-
-            //cel 5
-            const tr15 = document.createElement("tr");
-            tbody1.appendChild(tr15);
-            const th15 = document.createElement("th");
-            th15.setAttribute("scope", "row");
-            th15.textContent = "R";
-            tr15.appendChild(th15);
-            const td15 = document.createElement("td");
-            td15.textContent = champion.R;
-            tr15.appendChild(td15);
-
+            //cell 6
+            const tr55 = document.createElement("tr");
+            tbody1.appendChild(tr55);
+            const th55 = document.createElement("th");
+            th55.setAttribute("scope", "row");
+            th55.textContent = "R";
+            tr55.appendChild(th55);
+            const td55 = document.createElement("td");
+            td55.textContent = champion.LHabilidades[0].R;
+            tr55.appendChild(td55);
         }
 
         async function ecrachamps() {
