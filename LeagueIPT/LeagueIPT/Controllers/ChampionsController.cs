@@ -1,20 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Data.Entity;
 using System.Linq;
-using System.Web;
 using System.Web.Http;
-using System.Web.Http.Results;
-using LeagueIPT.Models;
-using System.Data.Entity;
 using LeagueIPT.DTO;
+using LeagueIPT.Models;
 
 namespace LeagueIPT.Controllers
 {
     public class ChampionsController : ApiController
     {
-        private AppBD _db = new AppBD();
+        private readonly AppBD _db = new AppBD();
 
-        [HttpGet, Route("api/champions")]
+        [HttpGet]
+        [Route("api/champions")]
         public IHttpActionResult GetChamps()
         {
             var champs = _db.Champions
@@ -25,8 +22,6 @@ namespace LeagueIPT.Controllers
                     Name = c.Nome
                 })
                 .ToList();
-
-
 
 
             return Ok(champs);
@@ -67,13 +62,11 @@ namespace LeagueIPT.Controllers
         //    return Ok(resultado);
         //}
 
-        [HttpGet, Route("api/champions/{id}")]
+        [HttpGet]
+        [Route("api/champions/{id}")]
         public IHttpActionResult GetChamp(int? id)
         {
-            if (id == null)
-            {
-                return BadRequest();
-            }
+            if (id == null) return BadRequest();
 
             var champion = _db.Champions
                 .Include(c => c.ListaHabilidades)
@@ -105,30 +98,7 @@ namespace LeagueIPT.Controllers
                             W = a.W,
                             E = a.E,
                             R = a.R
-                        }).ToList()                  
-                }).FirstOrDefault();
-
-            var champio = _db.Champions
-                .Include(c => c.ListaSkins)
-                .Where(c => c.ID == id)
-                .Select(champ => new GetChamp
-                {
-                    ID = champ.ID,
-                    Nome = champ.Nome,
-                    Nick = champ.Nick,
-                    ReleaseDate = champ.ReleaseDate,
-                    Atributo = champ.Atributo,
-                    Health = champ.Health,
-                    Range = champ.Range,
-                    AttackDamage = champ.AttackDamage,
-                    AttackSpeed = champ.AttackSpeed,
-                    MovSpeed = champ.MovSpeed,
-                    Role = champ.Role,
-                    Descricao = champ.Descricao,
-                    Imagem = champ.Imagem,
-                    ProfilePic = champ.ProfilePic,
-                    Lane = champ.Lane,
-                    Job = champ.Job,
+                        }).ToList(),
                     LSkins = champ.ListaSkins
                         .Select(a => new GetChamp.Skins
                         {
@@ -137,34 +107,21 @@ namespace LeagueIPT.Controllers
                             Img1 = a.Img1,
                             Nome2 = a.Nome2,
                             Img2 = a.Img2
-                        }).ToList()                  
+                        }).ToList()
                 }).FirstOrDefault();
 
 
-
-            if (champion == null)
-            {
-                return NotFound();
-            }
+            if (champion == null) return NotFound();
 
             return Ok(champion);
-
-            if (champio == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(champio);
         }
 
-        [HttpGet, Route("api/champions/{id}/habilidades")]
+        [HttpGet]
+        [Route("api/champions/{id}/habilidades")]
         public IHttpActionResult GetAbilities(int? id)
         {
-            Champions champion = _db.Champions.Find(id);
-            if (id == null)
-            {
-                return BadRequest();
-            }
+            var champion = _db.Champions.Find(id);
+            if (id == null) return BadRequest();
 
             var habilidade = champion.ListaHabilidades
                 .Select(champi => new
@@ -174,21 +131,18 @@ namespace LeagueIPT.Controllers
                     champi.W,
                     champi.E,
                     champi.R
-
                 });
 
 
             return Ok(habilidade);
         }
 
-        [HttpGet, Route("api/champions/{id}/skins")]
+        [HttpGet]
+        [Route("api/champions/{id}/skins")]
         public IHttpActionResult GetSkins(int? id)
         {
-            Champions champion = _db.Champions.Find(id);
-            if (id == null)
-            {
-                return BadRequest();
-            }
+            var champion = _db.Champions.Find(id);
+            if (id == null) return BadRequest();
 
             var skin = champion.ListaSkins
                 .Select(champio => new
@@ -202,9 +156,5 @@ namespace LeagueIPT.Controllers
 
             return Ok(skin);
         }
-
-
-
-
     }
 }

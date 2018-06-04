@@ -26,7 +26,6 @@
                         getDetalhes(champ.ID).then(function (result) {
                             const emptyDiv = document.querySelector("#champion");
                                 emptyDiv.classList.add("hide");
-                                
                                 detalhes(result);
                             })
                             .catch(function(erro) {
@@ -479,7 +478,7 @@
             const imgSlider2 = document.createElement("img");
             imgSlider2.setAttribute("class","w-100 d-block");
             imgSlider2.setAttribute("alt","slide image");
-            imgSlider2.setAttribute("src", champion.LSkins[0].Nome2);
+            imgSlider2.setAttribute("src", champion.LSkins[0].Img2);
             sliderNaoAtivo.appendChild(imgSlider2);
 
             //nome Skin
@@ -492,7 +491,7 @@
             nomeskin2.textContent = champion.LSkins[0].Nome2;
             divNomeSkin1.appendChild(nomeskin2);
 
-
+            debugger;
             //comandos
 
             const emptyDiv = document.createElement("div");
@@ -501,16 +500,16 @@
             //previous
             const aPrev = document.createElement("a");
             aPrev.setAttribute("class","carousel-control-prev");
-            aPrev.setAttribute("href","carousel-1");
+            aPrev.setAttribute("href","#carousel-1");
             aPrev.setAttribute("role","button");
             aPrev.setAttribute("data-slide", "prev");
             emptyDiv.appendChild(aPrev);
 
             const span1 = document.createElement("span");
             span1.setAttribute("class","carousel-control-prev-icon");
-            span1.setAttribute("aria-hidden", "true");
             aPrev.setAttribute(span1);
 
+            //rebenta aqui
             const span2 = document.createElement("span");
             span2.setAttribute("class", "sr-only");
             span2.textContent = "Previous";
@@ -519,14 +518,13 @@
             //next
             const aNext = document.createElement("a");
             aNext.setAttribute("class","carousel-control-next");
-            aNext.setAttribute("href","carousel-1");
+            aNext.setAttribute("href","#carousel-1");
             aNext.setAttribute("role","button");
             aNext.setAttribute("data-slide", "next");
             emptyDiv.appendChild(aNext);
 
             const span11 = document.createElement("span");
             span11.setAttribute("class","carousel-control-next-icon");
-            span11.setAttribute("aria-hidden", "true");
             aNext.setAttribute(span11);
 
             const span22 = document.createElement("span");

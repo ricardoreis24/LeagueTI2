@@ -1488,48 +1488,48 @@ namespace LeagueIPT.Migrations
                 },
                 new Skins
                 {
-                    ID = 3,
+                    ID = 4,
                     Nome1 = "Moo Cow Alistar",
                     Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_10.jpg",
                     Nome2 = "Infernal Alistar",
                     Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_6.jpg",
-                    ChampId = 3
-                },
-                new Skins
-                {
-                    ID = 4,
-                    Nome1 = "Surprise Party Amumu",
-                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_8.jpg",
-                    Nome2 = "Little Knight Amumu",
-                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_6.jpg",
                     ChampId = 4
                 },
                 new Skins
                 {
                     ID = 5,
-                    Nome1 = "Team Spirit Anivia",
-                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
-                    Nome2 = "Black Frost Anivia",
-                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+                    Nome1 = "Surprise Party Amumu",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_8.jpg",
+                    Nome2 = "Little Knight Amumu",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_6.jpg",
                     ChampId = 5
                 },
                 new Skins
                 {
                     ID = 6,
-                    Nome1 = "Hextech Annie",
-                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_10.jpg",
-                    Nome2 = "Panda Annie",
-                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_8.jpg",
+                    Nome1 = "Team Spirit Anivia",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+                    Nome2 = "Black Frost Anivia",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
                     ChampId = 6
                 },
                 new Skins
                 {
                     ID = 7,
-                    Nome1 = "Justicar Aatrox",
-                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
-                    Nome2 = "Mecha Aatrox",
-                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+                    Nome1 = "Hextech Annie",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_10.jpg",
+                    Nome2 = "Panda Annie",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_8.jpg",
                     ChampId = 7
+                },
+                new Skins
+                {
+                    ID = 3,
+                    Nome1 = "Blood Moon Akali",
+                    Img1 = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_5.jpg",
+                    Nome2 = "Silver Fang Akali",
+                    Img2 = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_6.jpg",
+                    ChampId = 3
                 },
                 new Skins
                 {
