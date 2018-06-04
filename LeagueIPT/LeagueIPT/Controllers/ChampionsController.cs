@@ -105,14 +105,42 @@ namespace LeagueIPT.Controllers
                             W = a.W,
                             E = a.E,
                             R = a.R
-                        }).ToList()
+                        }).ToList()                  
                 }).FirstOrDefault();
 
-            //var resultado = new
-            //{
+            var champio = _db.Champions
+                .Include(c => c.ListaSkins)
+                .Where(c => c.ID == id)
+                .Select(champ => new GetChamp
+                {
+                    ID = champ.ID,
+                    Nome = champ.Nome,
+                    Nick = champ.Nick,
+                    ReleaseDate = champ.ReleaseDate,
+                    Atributo = champ.Atributo,
+                    Health = champ.Health,
+                    Range = champ.Range,
+                    AttackDamage = champ.AttackDamage,
+                    AttackSpeed = champ.AttackSpeed,
+                    MovSpeed = champ.MovSpeed,
+                    Role = champ.Role,
+                    Descricao = champ.Descricao,
+                    Imagem = champ.Imagem,
+                    ProfilePic = champ.ProfilePic,
+                    Lane = champ.Lane,
+                    Job = champ.Job,
+                    LSkins = champ.ListaSkins
+                        .Select(a => new GetChamp.Skins
+                        {
+                            ID = a.ID,
+                            Nome1 = a.Nome1,
+                            Img1 = a.Img1,
+                            Nome2 = a.Nome2,
+                            Img2 = a.Img2
+                        }).ToList()                  
+                }).FirstOrDefault();
 
 
-            //};
 
             if (champion == null)
             {
@@ -120,6 +148,13 @@ namespace LeagueIPT.Controllers
             }
 
             return Ok(champion);
+
+            if (champio == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(champio);
         }
 
         [HttpGet, Route("api/champions/{id}/habilidades")]
@@ -144,6 +179,28 @@ namespace LeagueIPT.Controllers
 
 
             return Ok(habilidade);
+        }
+
+        [HttpGet, Route("api/champions/{id}/skins")]
+        public IHttpActionResult GetSkins(int? id)
+        {
+            Champions champion = _db.Champions.Find(id);
+            if (id == null)
+            {
+                return BadRequest();
+            }
+
+            var skin = champion.ListaSkins
+                .Select(champio => new
+                {
+                    champio.Nome1,
+                    champio.Img1,
+                    champio.Nome2,
+                    champio.Img2
+                });
+
+
+            return Ok(skin);
         }
 
 
