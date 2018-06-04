@@ -194,6 +194,7 @@
     <Compile Include="Models\AppBD.cs" />
     <Compile Include="Models\Champions.cs" />
     <Compile Include="Models\Habilidades.cs" />
+    <Compile Include="Models\Skins.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

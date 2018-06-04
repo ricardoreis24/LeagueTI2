@@ -27,5 +27,6 @@ namespace LeagueIPT.Models
         public string Lane { get; set; }
         public string Job { get; set; }
         public virtual ICollection<Habilidades> ListaHabilidades { get; set; }
+        public virtual ICollection<Skins> ListaSkins { get; set; }
     }
 }

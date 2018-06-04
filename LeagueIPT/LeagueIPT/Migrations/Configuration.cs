@@ -29,7 +29,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.651  (+ 0 – 51%)",
                     MovSpeed = 345,
                     Role = "Diver",
-                    Descricao = "Aatrox? Is this a champion? I dont know cause nobody plays this sh*t... ",
+                    Descricao =
+                        "Aatrox? Is this a champion? I dont know cause nobody plays this sh*t... He is like, the most joked around champion in the game because his kit is old. His abilities are so easy to dodge and he does little to no damage. He is super out of meta.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -53,7 +54,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.668  (+ 0 – 34%)",
                     MovSpeed = 330,
                     Role = "Mage",
-                    Descricao = "Easy champ to play, girls love her. She has 3 dashes so you could run away...",
+                    Descricao =
+                        "Easy champ to play, girls love her because she is super girly. She has one ability that throws a heart. A HEART!! Besides that, she is actually fun. You do damage, you crowd control, and you can run away with your ultimate.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -78,7 +80,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 350,
                     Role = "Assassin",
                     Descricao =
-                        "Q + Basic ... ops you're dead. Also you can be invisible with your W and you can run way with R.",
+                        "HAHAHAHAHAHAHAHA Akali... you cant really run away from her. She can dash with her ultimate, her W makes her invisible and can dash with it. It's such a fun champion to play and she's very strong too. Q + Basic you're dead. True definition of assassin.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -102,7 +104,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 36.1%)",
                     MovSpeed = 330,
                     Role = "Support",
-                    Descricao = "It's a cow... what more can I say",
+                    Descricao =
+                        "He is a tank cow. A COW! Alistar is fun to play. You can initiate plays, save your teammates and such be annoying as hell. Even tho he is not meta, you can't really go wrong with alistar.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -126,7 +129,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.638  (+ 15.3 – 52.4%)",
                     MovSpeed = 335,
                     Role = "Tank",
-                    Descricao = "Tank jungle always crying with an ok ult if used correctly",
+                    Descricao =
+                        "Tank jungle always crying with an ok ult if used correctly. His ultimate is literally the best ability he has. It has a great range and can stun everyone on it for like 1 to 2 seconds. It's a game changer if you know when to use it.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -151,7 +155,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao =
-                        "Boring champion... Her passive is AIDS, if you die you became an Egg and you dont die. You have to kill her and kill her again in Egg form...",
+                        "Boring champion... Only thing good about her is her passive. Honestly I dont even know what to write here. Look there's a professional player that only plays Anivia. Google search Froggen, thank me later if you wanna play or learn her.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -176,7 +180,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao =
-                        "You have no items but you pressed R? Oh look, you got yourself a kill... Also, I feel asleep playing with her.",
+                        "You have no items but you pressed R? Oh look, you got yourself a kill... Also, I feel asleep playing with her. Even tho she is strong and easy to play I think its boring, little to no action. Also her voice lines are annoying cause she is a little girl.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -200,7 +204,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.658  (+ 0 – 56.6%)",
                     MovSpeed = 325,
                     Role = "Marksman",
-                    Descricao = "Ashe has a good kit but nobody plays her, dont know why.",
+                    Descricao =
+                        "Ashe has a good kit but nobody plays her, dont know why. You can stun champions with your ult, you can grant vision to your team and you have strong damage and insane poke with your W.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
                     Job =
@@ -224,7 +229,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 23.1%)",
                     MovSpeed = 325,
                     Role = "Mage",
-                    Descricao = "Boring champ... You just run with your W on, doing damage.",
+                    Descricao =
+                        "Boring champ... You just run with your W on, doing damage. Cant even think of anything else to say honestly.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -249,7 +255,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Mage",
                     Descricao =
-                        "Call him Donald Trump cause his Ult places a wall that kicks you back. Super effective against Mexicans",
+                        "Call him Donald Trump cause his Ult places a wall that kicks you back. Super effective against Mexicans. He has a good kit but because of the current meta he is a bit weak.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -273,7 +279,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 34%)",
                     MovSpeed = 330,
                     Role = "Support",
-                    Descricao = "Good if you have him on your team.",
+                    Descricao =
+                        "Good if you have him on your team. He has damage and utility to save your team, however its a very hard champion to play with. You have a big learning curve.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -297,7 +304,8 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 19.2%)",
                     MovSpeed = 325,
                     Role = "Support",
-                    Descricao = "If he grabs you, you'll burn flash and you'll still die.",
+                    Descricao =
+                        "If he grabs you, you'll burn flash and you'll still die. Playing Blitzcrank never gets old",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -996,7 +1004,8 @@ namespace LeagueIPT.Migrations
                     Q = "Aatrox dashes to the target area.",
                     W = "Deals bonus on-hit physical damage.",
                     E = "Aatrox unleashes two converging energy waves in the target direction.",
-                    R = "He draws in the blood of his foes, dealing Ability power magic damage to nearby enemy champions.",
+                    R =
+                        "He draws in the blood of his foes, dealing Ability power magic damage to nearby enemy champions.",
                     IdChampion = 1
                 },
 
@@ -1004,10 +1013,12 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 2,
-                    Passiva = "Whenever Ahri lands 2 ability hits against a champion within 1.5 seconds, she gain 20% bonus movement speed for 3 seconds.",
+                    Passiva =
+                        "Whenever Ahri lands 2 ability hits against a champion within 1.5 seconds, she gain 20% bonus movement speed for 3 seconds.",
                     Q = "Sends an orb of arcane energy in the target direction, dealing power magic damage.",
                     W = "Summons three spectral flames which orbit her for up to 5 seconds.",
-                    E ="Ahri blows a kiss in a line, dealing magic damage to the first enemy hit, charming and slowing them by 65%.",
+                    E =
+                        "Ahri blows a kiss in a line, dealing magic damage to the first enemy hit, charming and slowing them by 65%.",
                     R = "Ahri dashes in the direction of the cursor.",
                     IdChampion = 2
                 },
@@ -1016,7 +1027,8 @@ namespace LeagueIPT.Migrations
                 {
                     ID = 3,
                     Passiva = "Akali's first two basic attacks are empowered.",
-                    Q = "Akali throws her kama at the target unit, dealing magic damage. Basic attacks detonate the kama dealing bonus damage",
+                    Q =
+                        "Akali throws her kama at the target unit, dealing magic damage. Basic attacks detonate the kama dealing bonus damage",
                     W = "Creates a smoke cover that makes akali invisible.",
                     E = "Akali flourishes her kamas, dealing physical damage to all enemies around her.",
                     R = "Akali dashes to the target unit, dealing them magic damage.",
@@ -1026,9 +1038,12 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 4,
-                    Passiva = "Alistar roars,healing himself for 20 - 139 (based on level) health and all nearby allied champions.",
-                    Q = "Slams the ground beneath him, dealing magic damage to all nearby enemies knocking them up for 1 second.",
-                    W = "Dashes to the target enemy dealing magic damage, stunning them for 1 second and knocking them back 650 units.",
+                    Passiva =
+                        "Alistar roars,healing himself for 20 - 139 (based on level) health and all nearby allied champions.",
+                    Q =
+                        "Slams the ground beneath him, dealing magic damage to all nearby enemies knocking them up for 1 second.",
+                    W =
+                        "Dashes to the target enemy dealing magic damage, stunning them for 1 second and knocking them back 650 units.",
                     E = "Alistar tramples the ground around him every 0.5 seconds for 5 seconds.",
                     R = "Reduces all incoming physical and magic damage for the next 7 seconds.",
                     IdChampion = 4
@@ -1037,7 +1052,8 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 5,
-                    Passiva = "Amumu's basic attacks curse the enemy. Cursed enemies will receive 10% bonus true damage.",
+                    Passiva =
+                        "Amumu's basic attacks curse the enemy. Cursed enemies will receive 10% bonus true damage.",
                     Q = "Amumu tosses a bandage in the target direction that stuns and pulls him to that location.",
                     W = "Cries a continuous pool of tears dealing magic damage to everyone around him.",
                     E = "Amumu takes reduced physical damage.",
@@ -1048,7 +1064,8 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 6,
-                    Passiva = "Upon taking fatal damage, Anivia transforms into an egg.If the egg survives, Anivia is reborn.",
+                    Passiva =
+                        "Upon taking fatal damage, Anivia transforms into an egg.If the egg survives, Anivia is reborn.",
                     Q = "Launches a massive chunk of ice which flies toward the target location.",
                     W = "Anivia summons an impassable wall of ice at the target location.",
                     E = "Anivia blasts the target with a freezing wind, dealing magic damage.",
@@ -1072,7 +1089,8 @@ namespace LeagueIPT.Migrations
                     ID = 8,
                     Passiva = "Slows enemies when she hits them with basics.",
                     Q = "Gains bonus attack speed for 4 seconds.",
-                    W = "Ashe fires 9 arrows in a cone in the target direction, dealing physical damage to all enemies hit.",
+                    W =
+                        "Ashe fires 9 arrows in a cone in the target direction, dealing physical damage to all enemies hit.",
                     E = "Grants vision to target area.",
                     R = "Fires an arrow that stuns enemies if they're hit.",
                     IdChampion = 8
@@ -1096,7 +1114,8 @@ namespace LeagueIPT.Migrations
                     Q = "Dashes his soldiers towards the target location.",
                     W = "Azir summons an untargetable Sand Soldier.",
                     E = "Azir shields himself for 1.5 seconds and dashes to one of his Sand Soldiers",
-                    R = "Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
+                    R =
+                        "Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
                     IdChampion = 10
                 },
 
@@ -1107,14 +1126,16 @@ namespace LeagueIPT.Migrations
                     Q = "Bard fires a burst of spirit energy in the target direction, dealing magic damage.",
                     W = "Creates a thing on the ground that when consume grants health to ally champions.",
                     E = "Opens a one-way magical corridor through a piece of terrain in the target direction.",
-                    R = "Bard sends magical energy arcing to the target location, putting all units and structures in the target area invulnerable.",
+                    R =
+                        "Bard sends magical energy arcing to the target location, putting all units and structures in the target area invulnerable.",
                     IdChampion = 11
                 },
 
                 new Habilidades
                 {
                     ID = 12,
-                    Passiva = "When Blitz receives damage which brings him below 20% maximum health, he shields himself.",
+                    Passiva =
+                        "When Blitz receives damage which brings him below 20% maximum health, he shields himself.",
                     Q = "Fires his right hand in the target direction, pulling the first enemy hit to him.",
                     W = "On cast grants bonus movement speed to Blitzcrank.",
                     E = "Blitzcrank's next basic attack knocks up his target for 1 second.",
@@ -1139,7 +1160,8 @@ namespace LeagueIPT.Migrations
                     Passiva = "Marks the enemy. After 4 basic attacks hit the marked champion, it stuns him.",
                     Q = "Propels ice from his shield in the target direction, dealing magic damage.",
                     W = "Braum dashes to the target ally.",
-                    E = "Braum raises his shield in the target direction, creating a barrier that reduces the damage he takes.",
+                    E =
+                        "Braum raises his shield in the target direction, creating a barrier that reduces the damage he takes.",
                     R = "Leaps into the air and slams his shield into the ground knocking anyone on the way.",
                     IdChampion = 14
                 },
@@ -1160,7 +1182,8 @@ namespace LeagueIPT.Migrations
                     ID = 16,
                     Passiva = "Grants an adaptive shield.",
                     Q = "Camille's next basic attack has 175 range, deals bonus physical damage.",
-                    W = "After a brief delay, Camille sweeps her leg to deal physical damage to all enemies in a cone in front of her.",
+                    W =
+                        "After a brief delay, Camille sweeps her leg to deal physical damage to all enemies in a cone in front of her.",
                     E = "Camille can dash and go throgh walls.",
                     R = "Traps target on a hexagonal zone.",
                     IdChampion = 16
@@ -1170,9 +1193,11 @@ namespace LeagueIPT.Migrations
                 {
                     ID = 17,
                     Passiva = "Gains 4 - 72 (based on level) base movement speed.",
-                    Q = "After a 0.4-second delay, Cassiopeia blasts the target area with poison, dealing magic damage.",
+                    Q =
+                        "After a 0.4-second delay, Cassiopeia blasts the target area with poison, dealing magic damage.",
                     W = "Cassiopeia spits forth eight bolts of venom in an arc.",
-                    E = "Cassiopeia launches her fangs at the target enemy, dealing them 52 - 120 (based on level) (+ 10% AP) magic damage.",
+                    E =
+                        "Cassiopeia launches her fangs at the target enemy, dealing them 52 - 120 (based on level) (+ 10% AP) magic damage.",
                     R = "Cassiopeia blasts enemies in a cone in the target direction, dealing magic damage.",
                     IdChampion = 17
                 },
@@ -1180,7 +1205,8 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 18,
-                    Passiva = "Whenever Cho'Gath kills an enemy or destroys a structure, he restores 20 - 71 (based on level) health.",
+                    Passiva =
+                        "Whenever Cho'Gath kills an enemy or destroys a structure, he restores 20 - 71 (based on level) health.",
                     Q = "Causes the target area to rupture after a 0.625 seconds delay and knocks them up.",
                     W = "Roars in the target direction, dealing magic damage to enemies.",
                     E = "Cho'Gath's next 3 basic attacks within 6 seconds have 50 bonus range.",
@@ -1290,11 +1316,13 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 28,
-                    Passiva = "Standing still or channeling abilities for 1.5 seconds grants Fiddlesticks bonus movement speed.",
+                    Passiva =
+                        "Standing still or channeling abilities for 1.5 seconds grants Fiddlesticks bonus movement speed.",
                     Q = "Fiddlesticks causes the target enemy to be feared.",
                     W = "Deals magic damage each second, and heals himself for a percentage of the damage done.",
                     E = "Sends a crow to the target enemy that bounces to nearby enemies up to 5 times.",
-                    R = "Fiddlesticks blinks to the target location with a murder of crows flying wildly around him for 5 seconds.",
+                    R =
+                        "Fiddlesticks blinks to the target location with a murder of crows flying wildly around him for 5 seconds.",
                     IdChampion = 28
                 },
 
@@ -1304,7 +1332,8 @@ namespace LeagueIPT.Migrations
                     Passiva = "If she hits a basic, deals true damage and heals her.",
                     Q = "Fiora dashes a short distance in the target direction, then stabs a nearby enemy.",
                     W = "Parries in the target direction, becoming invulnerable.",
-                    E = "Fiora's next two basic attacks within 4 seconds have 175 attack range and 50% bonus attack speed.",
+                    E =
+                        "Fiora's next two basic attacks within 4 seconds have 175 attack range and 50% bonus attack speed.",
                     R = "Can heal of her basic attacks.",
                     IdChampion = 29
                 },
@@ -1316,7 +1345,8 @@ namespace LeagueIPT.Migrations
                     Q = "Dashes a fixed distance towards the target enemy.",
                     W = "Fizz's next basic attack is empowered.",
                     E = "Vaults towards the target location, becoming Playful untargetable for 0.75 seconds.",
-                    R = "Throws a lure forward in a line that attracts a shark, causing it to emerge after 2 seconds, dealing magic damage.",
+                    R =
+                        "Throws a lure forward in a line that attracts a shark, causing it to emerge after 2 seconds, dealing magic damage.",
                     IdChampion = 30
                 },
 
@@ -1381,7 +1411,8 @@ namespace LeagueIPT.Migrations
                     Passiva = "The more movement speed he has the more attack damage he gains.",
                     Q = "Cleaves nearby enemies, dealing physical damage.",
                     W = "Hecarim surrounds himself with the spirit of dread for 4 seconds.",
-                    E = "Gains bonus movement speed for 4 seconds, beginning at 25% and increasing to 75% over 3 seconds.",
+                    E =
+                        "Gains bonus movement speed for 4 seconds, beginning at 25% and increasing to 75% over 3 seconds.",
                     R = "Hecarim summons spectral riders and dashes in the target direction with them.",
                     IdChampion = 36
                 },
@@ -1400,11 +1431,13 @@ namespace LeagueIPT.Migrations
                 new Habilidades
                 {
                     ID = 38,
-                    Passiva ="Periodically spawns a Tentacle on nearby impassable terrain.",
-                    Q ="Illaoi slams her idol into the ground.",
-                    W ="Illaoi's next basic attack within 6 seconds gains 225 bonus range and causes her to dash to her target.",
-                    E ="Illaoi unleashes a tentacle in the target direction",
-                    R ="Leaps into the air before slamming her idol into the ground, dealing physical damage to nearby enemies.",
+                    Passiva = "Periodically spawns a Tentacle on nearby impassable terrain.",
+                    Q = "Illaoi slams her idol into the ground.",
+                    W =
+                        "Illaoi's next basic attack within 6 seconds gains 225 bonus range and causes her to dash to her target.",
+                    E = "Illaoi unleashes a tentacle in the target direction",
+                    R =
+                        "Leaps into the air before slamming her idol into the ground, dealing physical damage to nearby enemies.",
                     IdChampion = 38
                 },
 
@@ -1431,6 +1464,365 @@ namespace LeagueIPT.Migrations
                 }
             };
             habilidade.ForEach(aa => context.Habilidades.AddOrUpdate(a => a.ID, aa));
+            context.SaveChanges();
+
+            var skin = new List<Skins>
+            {
+                new Skins
+                {
+                    ID = 1,
+                    Nome1 = "Justicar Aatrox",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+                    Nome2 = "Mecha Aatrox",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+                    ChampId = 1
+                },
+                new Skins
+                {
+                    ID = 2,
+                    Nome1 = "Arcade Ahri",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_7.jpg",
+                    Nome2 = "Popstar Ahri",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_4.jpg",
+                    ChampId = 2
+                },
+                new Skins
+                {
+                    ID = 3,
+                    Nome1 = "Moo Cow Alistar",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_10.jpg",
+                    Nome2 = "Infernal Alistar",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_6.jpg",
+                    ChampId = 3
+                },
+                new Skins
+                {
+                    ID = 4,
+                    Nome1 = "Surprise Party Amumu",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_8.jpg",
+                    Nome2 = "Little Knight Amumu",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_6.jpg",
+                    ChampId = 4
+                },
+                new Skins
+                {
+                    ID = 5,
+                    Nome1 = "Team Spirit Anivia",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+                    Nome2 = "Black Frost Anivia",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+                    ChampId = 5
+                },
+                new Skins
+                {
+                    ID = 6,
+                    Nome1 = "Hextech Annie",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_10.jpg",
+                    Nome2 = "Panda Annie",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_8.jpg",
+                    ChampId = 6
+                },
+                new Skins
+                {
+                    ID = 7,
+                    Nome1 = "Justicar Aatrox",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+                    Nome2 = "Mecha Aatrox",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+                    ChampId = 7
+                },
+                new Skins
+                {
+                    ID = 8,
+                    Nome1 = "Project Ashe",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_8.jpg",
+                    Nome2 = "Heartseeker Ashe",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_6.jpg",
+                    ChampId = 8
+                },
+                new Skins
+                {
+                    ID = 9,
+                    Nome1 = "Ashen Lord",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_1.jpg",
+                    ChampId = 9
+                },
+                new Skins
+                {
+                    ID = 10,
+                    Nome1 = "Galatic Azir",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_1.jpg",
+                    Nome2 = "SKT T1 Azir",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_3.jpg",
+                    ChampId = 10
+                },
+                new Skins
+                {
+                    ID = 11,
+                    Nome1 = "Snow Day Bard",
+                    Img1 = "https://www.mobafire.com/images/champion/skins/landscape/bard-snow-day.jpg",
+                    Nome2 = "Bard Bard",
+                    Img2 = "https://www.mobafire.com/images/champion/skins/landscape/bard-bard.jpg",
+                    ChampId = 11
+                },
+                new Skins
+                {
+                    ID = 12,
+                    Nome1 = "Definitely not Blitzcrank",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_5.jpg",
+                    Nome2 = "iBlitz",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_6.jpg",
+                    ChampId = 12
+                },
+                new Skins
+                {
+                    ID = 13,
+                    Nome1 = "Zombie Brand",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_4.jpg",
+                    Nome2 = "Battle Boss Brand",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_6.jpg",
+                    ChampId = 13
+                },
+                new Skins
+                {
+                    ID = 14,
+                    Nome1 = "El Tigre Braum",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_2.jpg",
+                    Nome2 = "Santa Braum",
+                    Img2 = "https://www.mobafire.com/images/champion/skins/landscape/braum-santa.jpg",
+                    ChampId = 14
+                },
+                new Skins
+                {
+                    ID = 15,
+                    Nome1 = "HeadHunter Caitlyn",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_6.jpg",
+                    Nome2 = "Safari Caitlyn",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_3.jpg",
+                    ChampId = 15
+                },
+                new Skins
+                {
+                    ID = 16,
+                    Nome1 = "Program Camille",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_1.jpg",
+                    ChampId = 16
+                },
+                new Skins
+                {
+                    ID = 17,
+                    Nome1 = "Jade Fang Cassiopeia",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_4.jpg",
+                    Nome2 = "Mythic Cassiopeia",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_3.jpg",
+                    ChampId = 17
+                },
+                new Skins
+                {
+                    ID = 18,
+                    Nome1 = "BattleCast Prime Cho'Gath",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_5.jpg",
+                    Nome2 = "Gentleman Cho'Gath",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_2.jpg",
+                    ChampId = 18
+                },
+                new Skins
+                {
+                    ID = 19,
+                    Nome1 = "Arcade Corki",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_8.jpg",
+                    Nome2 = "Red Baron Corki",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_3.jpg",
+                    ChampId = 19
+                },
+                new Skins
+                {
+                    ID = 20,
+                    Nome1 = "DunkMaster Darius",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_4.jpg",
+                    Nome2 = "Lorde Darius",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_1.jpg",
+                    ChampId = 20
+                },
+                new Skins
+                {
+                    ID = 21,
+                    Nome1 = "Infernal Diana",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_3.jpg",
+                    Nome2 = "Lunar Goddness Diana",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_2.jpg",
+                    ChampId = 21
+                },
+                new Skins
+                {
+                    ID = 22,
+                    Nome1 = "PoolParty Mundo",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_8.jpg",
+                    Nome2 = "Mundo Mundo",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_4.jpg",
+                    ChampId = 22
+                },
+                new Skins
+                {
+                    ID = 23,
+                    Nome1 = "PoolParty Draven",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_4.jpg",
+                    Nome2 = "Draven Draven",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_6.jpg",
+                    ChampId = 23
+                },
+                new Skins
+                {
+                    ID = 24,
+                    Nome1 = "Sandstorm Ekko",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg",
+                    Nome2 = "Project Ekko",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_3.jpg",
+                    ChampId = 24
+                },
+                new Skins
+                {
+                    ID = 25,
+                    Nome1 = "SKT T1 Elise",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_4.jpg",
+                    Nome2 = "Blood Moon Elise",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_3.jpg",
+                    ChampId = 25
+                },
+                new Skins
+                {
+                    ID = 26,
+                    Nome1 = "Tango Evelynn",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_3.jpg",
+                    Nome2 = "Shadow Evelynn",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_1.jpg",
+                    ChampId = 26
+                },
+                new Skins
+                {
+                    ID = 27,
+                    Nome1 = "Arcade Ezreal",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_9.jpg",
+                    Nome2 = "Pulsefire Ezreal",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_5.jpg",
+                    ChampId = 27
+                },
+                new Skins
+                {
+                    ID = 28,
+                    Nome1 = "Union Jack Fiddle",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_2.jpg",
+                    Nome2 = "Surprise Party Fiddle",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_6.jpg",
+                    ChampId = 28
+                },
+                new Skins
+                {
+                    ID = 29,
+                    Nome1 = "Pool Party Fiora",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_5.jpg",
+                    Nome2 = "Project Fiora",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_4.jpg",
+                    ChampId = 29
+                },
+                new Skins
+                {
+                    ID = 30,
+                    Nome1 = "Fisherman Fizz",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_3.jpg",
+                    Nome2 = "Tundra Fizz",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_2.jpg",
+                    ChampId = 30
+                },
+                new Skins
+                {
+                    ID = 31,
+                    Nome1 = "Birdio",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_6.jpg",
+                    Nome2 = "Debonair Galio",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_5.jpg",
+                    ChampId = 31
+                },
+                new Skins
+                {
+                    ID = 32,
+                    Nome1 = "Sailor GangPlank",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_3.jpg",
+                    Nome2 = "Spooky GangPlank",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_1.jpg",
+                    ChampId = 32
+                },
+                new Skins
+                {
+                    ID = 33,
+                    Nome1 = "Gentleman Gnar",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_2.jpg",
+                    Nome2 = "Dino Gnar",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_1.jpg",
+                    ChampId = 33
+                },
+                new Skins
+                {
+                    ID = 34,
+                    Nome1 = "HillBilly Gragas",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_2.jpg",
+                    Nome2 = "Scuba Gragas",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_1.jpg",
+                    ChampId = 34
+                },
+                new Skins
+                {
+                    ID = 35,
+                    Nome1 = "PoolParty Graves",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_5.jpg",
+                    Nome2 = "Snow Day Graves",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_7.jpg",
+                    ChampId = 35
+                },
+                new Skins
+                {
+                    ID = 36,
+                    Nome1 = "Arcade Hecarim",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_4.jpg",
+                    Nome2 = "Reaper Hecarim",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_2.jpg",
+                    ChampId = 36
+                },
+                new Skins
+                {
+                    ID = 37,
+                    Nome1 = "Snowmerdinger",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_4.jpg",
+                    Nome2 = "Hazmat Heimer",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_5.jpg",
+                    ChampId = 37
+                },
+                new Skins
+                {
+                    ID = 38,
+                    Nome1 = "Void Binger Illaoi",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_1.jpg",
+
+                    ChampId = 38
+                },
+                new Skins
+                {
+                    ID = 39,
+                    Nome1 = "Night Blade Irelia",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_1.jpg",
+                    Nome2 = "Infiltrator Irelia",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_3.jpg",
+                    ChampId = 39
+                },
+                new Skins
+                {
+                    ID = 40,
+                    Nome1 = "Candy King Ivern",
+                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_1.jpg",
+                    ChampId = 40
+                }
+            };
+            skin.ForEach(aa => context.Skins.AddOrUpdate(a => a.ID, aa));
             context.SaveChanges();
         }
     }

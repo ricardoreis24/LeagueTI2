@@ -25,6 +25,7 @@ namespace LeagueIPT.DTO
         public string Lane { get; set; }
         public string Job { get; set; }
         public ICollection<Habilidades> LHabilidades { get; set; }
+        public ICollection<Habilidades> LSkins { get; set; }
 
 
         public class Habilidades
@@ -36,6 +37,16 @@ namespace LeagueIPT.DTO
             public string W { get; set; }
             public string E { get; set; }
             public string R { get; set; }
+        }
+
+        public class Skins
+        {
+            public int ID { get; set; }
+
+            public string Nome1 { get; set; }
+            public string Img1 { get; set; }
+            public string Nome2 { get; set; }
+            public string Img2 { get; set; }
         }
     }
 }

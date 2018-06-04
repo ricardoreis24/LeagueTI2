@@ -11,6 +11,7 @@ namespace LeagueIPT.Models {
 
         public virtual DbSet<Habilidades> Habilidades { get; set; }
         public virtual DbSet<Champions> Champions { get; set; }
+        public virtual DbSet<Skins> Skins { get; set; }
 
     }
 }

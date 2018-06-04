@@ -421,6 +421,135 @@
             const td55 = document.createElement("td");
             td55.textContent = champion.LHabilidades[0].R;
             tr55.appendChild(td55);
+
+            //tab numero 3. Skins
+            const tabConteudo3 = document.createElement("div");
+            tabConteudo3.setAttribute("class", "tab-pane fade");
+            tabConteudo3.setAttribute("id", "item-1-3");
+            tabConteudo3.setAttribute("role", "tabpanel");
+            tabConteudo3.setAttribute("aria-labelledby", "item-1-3-tab");
+            tabContent.appendChild(tabConteudo3);
+
+            const titSkins = document.createElement("h4");
+            titSkins.setAttribute("class", "text-center");
+            titSkins.setAttribute("style", "margin-bottom: 20px;");
+            titSkins.textContent = "Skins";
+            tabConteudo3.appendChild(titSkins);
+            
+            const sliderDiv = document.createElement("div");
+            sliderDiv.setAttribute("id", "carousel-1");
+            sliderDiv.setAttribute("class", "carousel slide");
+            sliderDiv.setAttribute("data-ride", "carousel");
+            tabConteudo3.appendChild(sliderDiv);
+
+            const sliderContDiv = document.createElement("div");
+            sliderContDiv.setAttribute("class", "carousel-inner");
+            sliderContDiv.setAttribute("role", "listbox");
+            sliderDiv.appendChild(sliderContDiv);
+
+            //slides
+
+            //primeiro slide (ativo)
+            const sliderAtivo = document.createElement("div");
+            sliderAtivo.setAttribute("class", "carousel-item active");
+            sliderContDiv.appendChild(sliderAtivo);
+
+            const imgSlider1 = document.createElement("img");
+            imgSlider1.setAttribute("class","w-100 d-block");
+            imgSlider1.setAttribute("alt","slide image");
+            imgSlider1.setAttribute("src", champion.LSkins[0].Img1);
+            sliderAtivo.appendChild(imgSlider1);
+
+            //nome Skin
+            const divNomeSkin = document.createElement("div");
+            divNomeSkin.setAttribute("class","carousel-caption d-none d-md-block");
+            sliderAtivo.appendChild(divNomeSkin);
+
+            //nome
+            const nomeskin1 = document.createElement("h5");
+            nomeskin1.textContent = champion.LSkins[0].Nome1;
+            divNomeSkin.appendChild(nomeskin1);
+
+            //segundo slide
+
+            const sliderNaoAtivo = document.createElement("div");
+            sliderNaoAtivo.setAttribute("class", "carousel-item");
+            sliderContDiv.appendChild(sliderNaoAtivo);
+
+            const imgSlider2 = document.createElement("img");
+            imgSlider2.setAttribute("class","w-100 d-block");
+            imgSlider2.setAttribute("alt","slide image");
+            imgSlider2.setAttribute("src", champion.LSkins[0].Nome2);
+            sliderNaoAtivo.appendChild(imgSlider2);
+
+            //nome Skin
+            const divNomeSkin1 = document.createElement("div");
+            divNomeSkin1.setAttribute("class", "carousel-caption d-none d-md-block");
+            sliderNaoAtivo.appendChild(divNomeSkin1);
+
+            //nome
+            const nomeskin2 = document.createElement("h5");
+            nomeskin2.textContent = champion.LSkins[0].Nome2;
+            divNomeSkin1.appendChild(nomeskin2);
+
+
+            //comandos
+
+            const emptyDiv = document.createElement("div");
+            sliderDiv.appendChild(emptyDiv);
+
+            //previous
+            const aPrev = document.createElement("a");
+            aPrev.setAttribute("class","carousel-control-prev");
+            aPrev.setAttribute("href","carousel-1");
+            aPrev.setAttribute("role","button");
+            aPrev.setAttribute("data-slide", "prev");
+            emptyDiv.appendChild(aPrev);
+
+            const span1 = document.createElement("span");
+            span1.setAttribute("class","carousel-control-prev-icon");
+            span1.setAttribute("aria-hidden", "true");
+            aPrev.setAttribute(span1);
+
+            const span2 = document.createElement("span");
+            span2.setAttribute("class", "sr-only");
+            span2.textContent = "Previous";
+            aPrev.setAttribute(span2);
+
+            //next
+            const aNext = document.createElement("a");
+            aNext.setAttribute("class","carousel-control-next");
+            aNext.setAttribute("href","carousel-1");
+            aNext.setAttribute("role","button");
+            aNext.setAttribute("data-slide", "next");
+            emptyDiv.appendChild(aNext);
+
+            const span11 = document.createElement("span");
+            span11.setAttribute("class","carousel-control-next-icon");
+            span11.setAttribute("aria-hidden", "true");
+            aNext.setAttribute(span11);
+
+            const span22 = document.createElement("span");
+            span22.setAttribute("class", "sr-only");
+            span22.textContent = "Next";
+            aNext.setAttribute(span22);
+
+            //indicadores
+
+            const ol = document.createElement("ol");
+            ol.setAttribute("class", "carousel-indicators");
+            sliderDiv.appendChild(ol);
+
+            const li = document.createElement("li");
+            li.setAttribute("class","active");
+            li.setAttribute("data-slide-to","0");
+            li.setAttribute("data-target", "#carousel-1");
+            ol.setAttribute(li);
+
+            const li1 = document.createElement("li");
+            li1.setAttribute("data-slide-to","1");
+            li1.setAttribute("data-target", "#carousel-1");
+            ol.setAttribute(li1);
         }
 
         async function ecrachamps() {

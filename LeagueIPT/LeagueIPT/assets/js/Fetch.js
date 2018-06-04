@@ -38,3 +38,16 @@ function getHabilidades(champId) {
         });
 
 }
+
+function getSkins(champId) {
+    var url = "/api/champions/" + champId +"/skins" ;
+    return fetch(url, { headers: { Accept: "application/json" } })
+        .then(function (respostaServidor) {
+            if (respostaServidor.status === 200) {
+                return respostaServidor.json();
+            } else {
+                return Promise.reject(new Error("Erro ao obter champion"));
+            }
+        });
+
+}
