@@ -27,41 +27,6 @@ namespace LeagueIPT.Controllers
             return Ok(champs);
         }
 
-        //[HttpGet, Route("api/champions/{id}")]
-        //public IHttpActionResult GetChamp(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    Champions champ = _db.Champions.Find(id);
-
-        //    var resultado = new
-        //    {
-        //        champ.ID,
-        //        champ.Nome,
-        //        champ.Nick,
-        //        champ.ReleaseDate,
-        //        champ.Atributo,
-        //        champ.Health,
-        //        champ.Range,
-        //        champ.AttackDamage,
-        //        champ.AttackSpeed,
-        //        champ.MovSpeed,
-        //        champ.Role,
-        //        champ.Descricao,
-        //        champ.Imagem,
-        //        champ.ProfilePic,
-        //        champ.Lane,
-        //        champ.Job,
-
-
-        //    };
-
-        //    return Ok(resultado);
-        //}
-
         [HttpGet]
         [Route("api/champions/{id}")]
         public IHttpActionResult GetChamp(int? id)

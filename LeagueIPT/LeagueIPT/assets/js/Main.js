@@ -1,10 +1,17 @@
 ﻿document.addEventListener("DOMContentLoaded",
     function main() {
         function init() {
-            ecrachamps();
+            load();
+            //ecrachamps();
         }
 
         init();
+
+        var loading;
+        function load() {
+            loading = setTimeout(ecrachamps, 300);
+
+        }
 
         /**
          *
@@ -12,6 +19,7 @@
          * @param {Array<{ id: string, Pic: string }>} champs
          */
         function mostrarChamps(champs) {
+
             for (let champ of champs) {
                 const mainDiv = document.querySelector("#conteudo");
                 const a = document.createElement("a");
@@ -131,7 +139,7 @@
             divA2.setAttribute("role", "tab");
             divA2.setAttribute("aria-controls", "item-1-3");
             divA2.setAttribute("aria-selected", "false");
-            divA2.textContent = "Media";
+            divA2.textContent = "Skins";
             divLi3.appendChild(divA2);
 
             //body do card
@@ -428,12 +436,6 @@
             tabConteudo3.setAttribute("role", "tabpanel");
             tabConteudo3.setAttribute("aria-labelledby", "item-1-3-tab");
             tabContent.appendChild(tabConteudo3);
-
-            const titSkins = document.createElement("h4");
-            titSkins.setAttribute("class", "text-center");
-            titSkins.setAttribute("style", "margin-bottom: 20px;");
-            titSkins.textContent = "Skins";
-            tabConteudo3.appendChild(titSkins);
             
             const sliderDiv = document.createElement("div");
             sliderDiv.setAttribute("id", "carousel-1");
@@ -491,7 +493,6 @@
             nomeskin2.textContent = champion.LSkins[0].Nome2;
             divNomeSkin1.appendChild(nomeskin2);
 
-            debugger;
             //comandos
 
             const emptyDiv = document.createElement("div");
@@ -505,16 +506,6 @@
             aPrev.setAttribute("data-slide", "prev");
             emptyDiv.appendChild(aPrev);
 
-            const span1 = document.createElement("span");
-            span1.setAttribute("class","carousel-control-prev-icon");
-            aPrev.setAttribute(span1);
-
-            //rebenta aqui
-            const span2 = document.createElement("span");
-            span2.setAttribute("class", "sr-only");
-            span2.textContent = "Previous";
-            aPrev.setAttribute(span2);
-
             //next
             const aNext = document.createElement("a");
             aNext.setAttribute("class","carousel-control-next");
@@ -523,36 +514,12 @@
             aNext.setAttribute("data-slide", "next");
             emptyDiv.appendChild(aNext);
 
-            const span11 = document.createElement("span");
-            span11.setAttribute("class","carousel-control-next-icon");
-            aNext.setAttribute(span11);
-
-            const span22 = document.createElement("span");
-            span22.setAttribute("class", "sr-only");
-            span22.textContent = "Next";
-            aNext.setAttribute(span22);
-
-            //indicadores
-
-            const ol = document.createElement("ol");
-            ol.setAttribute("class", "carousel-indicators");
-            sliderDiv.appendChild(ol);
-
-            const li = document.createElement("li");
-            li.setAttribute("class","active");
-            li.setAttribute("data-slide-to","0");
-            li.setAttribute("data-target", "#carousel-1");
-            ol.setAttribute(li);
-
-            const li1 = document.createElement("li");
-            li1.setAttribute("data-slide-to","1");
-            li1.setAttribute("data-target", "#carousel-1");
-            ol.setAttribute(li1);
         }
 
         async function ecrachamps() {
             try {
                 const batatas = await getChamps();
+                document.getElementById("loader").style.display = "none";
                 mostrarChamps(batatas);
             } catch (erro) {
                 console.error(erro);

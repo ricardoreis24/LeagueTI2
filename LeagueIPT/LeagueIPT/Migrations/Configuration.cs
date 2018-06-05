@@ -1508,9 +1508,9 @@ namespace LeagueIPT.Migrations
                 {
                     ID = 6,
                     Nome1 = "Team Spirit Anivia",
-                    Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+                    Img1 = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_1.jpg",
                     Nome2 = "Black Frost Anivia",
-                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+                    Img2 = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_5.jpg",
                     ChampId = 6
                 },
                 new Skins
@@ -1545,6 +1545,8 @@ namespace LeagueIPT.Migrations
                     ID = 9,
                     Nome1 = "Ashen Lord",
                     Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_1.jpg",
+                    Nome2 = "Default",
+                    Img2 = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
                     ChampId = 9
                 },
                 new Skins
@@ -1606,6 +1608,8 @@ namespace LeagueIPT.Migrations
                     ID = 16,
                     Nome1 = "Program Camille",
                     Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_1.jpg",
+                    Nome2 = "Default",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
                     ChampId = 16
                 },
                 new Skins
@@ -1802,7 +1806,8 @@ namespace LeagueIPT.Migrations
                     ID = 38,
                     Nome1 = "Void Binger Illaoi",
                     Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_1.jpg",
-
+                    Nome2 = "Mecha Illaoi",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_2.jpg",
                     ChampId = 38
                 },
                 new Skins
@@ -1819,6 +1824,8 @@ namespace LeagueIPT.Migrations
                     ID = 40,
                     Nome1 = "Candy King Ivern",
                     Img1 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_1.jpg",
+                    Nome2 = "Default",
+                    Img2 = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
                     ChampId = 40
                 }
             };
