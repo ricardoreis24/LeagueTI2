@@ -55,7 +55,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Mage",
                     Descricao =
-                        "Easy champ to play, girls love her because she is super girly. She has one ability that throws a heart. A HEART!! Besides that, she is actually fun. You do damage, you crowd control, and you can run away with your ultimate.",
+                        "Easy champ to play, girls love her because she is super girly. She has one ability that throws a heart. A HEART!! Besides that, she is actually fun. You do damage, you have crowd control, and you can run away with your ultimate.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -105,7 +105,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Support",
                     Descricao =
-                        "He is a tank cow. A COW! Alistar is fun to play. You can initiate plays, save your teammates and such be annoying as hell. Even tho he is not meta, you can't really go wrong with alistar.",
+                        "He is a tank cow. A COW! Alistar is fun to play. You can initiate plays, save your teammates and be a nuisance to your foes. Even tho he is not meta, you can't really go wrong with alistar.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -155,7 +155,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao =
-                        "Boring champion... Only thing good about her is her passive. Honestly I dont even know what to write here. Look there's a professional player that only plays Anivia. Google search Froggen, thank me later if you wanna play or learn her.",
+                        "Boring champion... Only thing good about her is her passive, she cheats death by becoming a f*ckng EGG! Honestly I dont even know what to write here. Look there's a professional player that only plays Anivia. Google search Froggen, thank me later if you wanna play or learn her. Also, THE BIRD IS THE WORD.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -180,7 +180,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao =
-                        "You have no items but you pressed R? Oh look, you got yourself a kill... Also, I feel asleep playing with her. Even tho she is strong and easy to play I think its boring, little to no action. Also her voice lines are annoying cause she is a little girl.",
+                        "You have no items but you pressed R? Oh look, you got yourself a kill... Also, I fell asleep playing with her. Even though she is strong and easy to play I think its boring, little to no action. Also her voice lines are annoying cause she is a little girl.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -230,7 +230,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Mage",
                     Descricao =
-                        "Boring champ... You just run with your W on, doing damage. Cant even think of anything else to say honestly.",
+                        "Boring champ... You just run with your W on and you BOOP them, with your magnificent bawls, I mean stars (xD). Cant even think of anything else to say honestly.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -255,7 +255,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Mage",
                     Descricao =
-                        "Call him Donald Trump cause his Ult places a wall that kicks you back. Super effective against Mexicans. He has a good kit but because of the current meta he is a bit weak.",
+                        "Call him Donald Trump cause his Ult places a wall that kicks you back. Super effective against Mexicans. Unfortunalty after the cast and the knock back it becomes a simple obstacle which means it CAN be crossed :(.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -280,7 +280,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 330,
                     Role = "Support",
                     Descricao =
-                        "Good if you have him on your team. He has damage and utility to save your team, however its a very hard champion to play with. You have a big learning curve.",
+                        "Good if you have him on your team. He has damage and utility to save your team, however its a very hard champion to play with. You required a big PHD. You have a big learning curve.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -305,7 +305,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Support",
                     Descricao =
-                        "If he grabs you, you'll burn flash and you'll still die. Playing Blitzcrank never gets old",
+                        "Blitzcrank is a booty grabber. If he grabs you, you'll burn flash and you'll still die. Playing Blitzcrank never gets old",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -329,7 +329,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 19.2%)",
                     MovSpeed = 340,
                     Role = "Mage",
-                    Descricao = "People who play Brand support have no life... You can quote me on that",
+                    Descricao = "People who play Brand support have no life... You can quote me on that. Brand has quiet a heated gameplay ;) BADUM TSSS",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -353,7 +353,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.644  (+ 0 – 59.5%)",
                     MovSpeed = 335,
                     Role = "Support",
-                    Descricao = "ahhhh you're safe with Braum.",
+                    Descricao = "ahhhh you're safe with Braum. He is the Hodor of League because he literally holds a dooooooor! A DOOOOOOR!",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Support_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021434",
                     Job =
@@ -377,7 +377,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.568  (+ 10 – 78%)",
                     MovSpeed = 325,
                     Role = "Marksman",
-                    Descricao = "W spam = easy kills",
+                    Descricao = "Caitlyn is the HEAD SHOT MACHINE. She is the son of ScreaM, legendary player of CSGO. Google search him. Also she likes cupcakes.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
                     Job =
@@ -401,7 +401,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.644  (+ 0 – 42.5%)",
                     MovSpeed = 325,
                     Role = "Bruiser",
-                    Descricao = "You design camille should be fired.",
+                    Descricao = "Who design camille should be fired. She has scissors for legs and can dash from one part of the map to the other.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -425,7 +425,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.647  (+ 0 – 25.5%)",
                     MovSpeed = 328,
                     Role = "Mage",
-                    Descricao = "Its a snake for gods sake.",
+                    Descricao = "Its a snake for gods sake. She can turn you to stone. Not much I can say, she's a bit boring. Does OK damage.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -449,7 +449,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 24.5%)",
                     MovSpeed = 345,
                     Role = "Tank",
-                    Descricao = "Press R for a kill. Also you're tank as f*ck.",
+                    Descricao = "Press R for a kill. Also you're tank as f*ck. You sustain, you have engage, you have crowd control. Half of your kit increases in damage based on your health, and your Ult gives you health when you kill stuff with it.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -473,7 +473,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.638  (+ 0 – 39.1%)",
                     MovSpeed = 325,
                     Role = "Marksman",
-                    Descricao = "He is fun, I guess",
+                    Descricao = "He is fun, I guess. This poor champion has been through alot because he is a pilot from world war 2. Also, how can you fly so low to the ground",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -497,7 +497,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 17%)",
                     MovSpeed = 340,
                     Role = "Tank",
-                    Descricao = "Ahh do you like dunking on people? Than Darius is the champ for you.",
+                    Descricao = "Ahh do you like dunking on people? Than Darius is the champ for you, plus he gives people hemorrhage.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -521,7 +521,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 38.3%)",
                     MovSpeed = 345,
                     Role = "Assassin",
-                    Descricao = "Discount version of Akali with a bit more crowd control.",
+                    Descricao = "Discount version of Akali with a bit more crowd control. She's a bit more edgy because worships the moon on the verge of being emo.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -545,7 +545,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 15.3 – 62.9%)",
                     MovSpeed = 345,
                     Role = "Tank",
-                    Descricao = "Please don't play Mundo, he's too tanky. Hard to kill.",
+                    Descricao = "Please don't play Mundo, he's too tanky. Hard to kill. Mundo to strong for you. Mundo go where he pleases. Mundo think you''re a big sissy.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -569,7 +569,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.679  (+ 0 – 45.9%)",
                     MovSpeed = 330,
                     Role = "Marksman",
-                    Descricao = "Draven does it all.......",
+                    Descricao = "Draven is like that guy with a big ego... His the true alpha male of league of legends. Google search Tyler1 for more information...",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
                     Job =
@@ -594,7 +594,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 340,
                     Role = "Assassin",
                     Descricao =
-                        "You can one shot somebody and press R to go back to where you were a few moments back.",
+                        "You can one shot somebody and press R to go back to where you were a few moments back. ",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -618,7 +618,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 29.8%)",
                     MovSpeed = 325,
                     Role = "Mage",
-                    Descricao = "You build tank and you deal tons of damage.",
+                    Descricao = "You build tank and you deal tons of damage. You have 2 forms and the rest is too complicated to write. Also I'm lazy and I don't like elise.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -642,7 +642,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.667  (+ 0 – 35.7%)",
                     MovSpeed = 335,
                     Role = "Mage",
-                    Descricao = "After level 6 you're invisible. I hate people who play her.",
+                    Descricao = "After level 6 you're invisible. I hate people who play her. Also she is very into BDS, don't ask, I don't know. Its all based on the champion's voice lines. Thank you RIOT games for your amamzing champion design.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -666,7 +666,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 25.5%)",
                     MovSpeed = 325,
                     Role = "Marksman",
-                    Descricao = "Bad if you don't hit skill shots.",
+                    Descricao = "Bad if you don't hit skill shots. Ok kit, every one in korea loves him. Who needs a map? You belong in a museum.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Bot_icon.png/revision/latest/scale-to-width-down/120?cb=20171118085356",
                     Job =
@@ -690,7 +690,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 35.9%)",
                     MovSpeed = 335,
                     Role = "Mage",
-                    Descricao = "He is annoying to play against.",
+                    Descricao = "Fiddle is a scarecrow that if he doesn't move in 6 seconds he literally becomes a SCARECROW. It allows him to stalk his pray and attack when they least expect it. Ele é feito de paus (no joke eheh xd).",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -715,7 +715,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 345,
                     Role = "Bruiser",
                     Descricao =
-                        "Has a dash every few seconds plus deals trillions of damage while she heals for billions.",
+                        "Has a dash every few seconds plus deals trillions of damage while she heals for billions. She is so balanced, she can 360 you, no problem, trillions of damage.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -740,7 +740,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 335,
                     Role = "Assassin",
                     Descricao =
-                        "This champ should not be in the game. Has an ability that makes him invulnerable every few seconds",
+                        "This champ should not be in the game. Has an ability that makes him invulnerable every few seconds. The definition of true cancer its fizz.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -788,7 +788,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.658  (+ 0 – 54.4%)",
                     MovSpeed = 345,
                     Role = "Bruiser",
-                    Descricao = "Super fun to play. I love Gangplank because of Tobias fate. Google search him",
+                    Descricao = "Super fun to play. I love Gangplank because of Tobias fate. Google search him. Could you REEEEEE for me? He has barrels, a good ult and does tons of damage.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -812,7 +812,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 5.5 – 107.5%)",
                     MovSpeed = 325,
                     Role = "Tank",
-                    Descricao = "Omg he's so cute.... oh wtf he just transform himself into a big monster",
+                    Descricao = "Omg he's so cute.... oh wtf he just transform himself into a big monster. He likes to slam you against a wall and stun you so you can't move.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -836,7 +836,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 8 – 42.8%)",
                     MovSpeed = 330,
                     Role = "Tank",
-                    Descricao = "A fat Irish who is tank and loves beer... not even kidding",
+                    Descricao = "A fat Irish who is tank and loves beer... not even kidding. Plus he makes his own brew. Bebedo do car*lh**, primo do sushi, boa barriguinha.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -860,7 +860,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.481  (+ 0 – 44.2%)",
                     MovSpeed = 340,
                     Role = "Marksman",
-                    Descricao = "His ult is too strong",
+                    Descricao = "TENHO UMA ARMA E NÃO TENHO MEDO DE A USAR. Where's the cigar? He was famous for it, but it's actually in the lore of league of legends that he only smokes weed (pure weed). :(",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -884,7 +884,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.67  (+ 0 – 42.5%)",
                     MovSpeed = 345,
                     Role = "Bruiser",
-                    Descricao = "My little poney...",
+                    Descricao = "My little pony. The true definition of Corta Relva. He's Q spins his axe, like a meat spin good to cortar relva.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -908,7 +908,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 23.1%)",
                     MovSpeed = 340,
                     Role = "Mage",
-                    Descricao = "THE DONGER!!!",
+                    Descricao = "THE DONGER LORD! He's all about science, the Einstein of League Of Legends. Vsauce has the spit facts, but he has the science facts.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Mid_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
@@ -932,7 +932,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.571  (+ 0 – 42.5%)",
                     MovSpeed = 340,
                     Role = "Bruiser",
-                    Descricao = "She has tentacles. People you enjoy hentai play her a lot (xD)",
+                    Descricao = "She has tentacles. People you enjoy hentai play her a lot (xD). Prima do TentaCruel do pokemon.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -956,7 +956,7 @@ namespace LeagueIPT.Migrations
                     AttackSpeed = "0.625  (+ 0 – 42.5%)",
                     MovSpeed = 340,
                     Role = "Bruiser",
-                    Descricao = "Yeah she's good I guess",
+                    Descricao = "Dash galore. Never seen any other champ spam Q like her.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Top_Icon.png/revision/latest/scale-to-width-down/120?cb=20161112025307",
                     Job =
@@ -981,7 +981,7 @@ namespace LeagueIPT.Migrations
                     MovSpeed = 325,
                     Role = "Support",
                     Descricao =
-                        "You're a tree... You plays this champ??? You're a f*ucking tree. Who design this shoul've of been high at the moment.",
+                        "You're a tree... You plays this champ??? You're a f*ucking tree. Who design this shoul've of been high at the moment. OH DAISY. Car*lh* pás arvores.",
                     Lane =
                         "https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Jungle_icon.png/revision/latest/scale-to-width-down/120?cb=20170515021433",
                     Job =
