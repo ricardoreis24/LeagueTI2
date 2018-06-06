@@ -1,6 +1,6 @@
 ﻿
-function getChamps() {
-    const url = "/api/champions/";
+function getChamps(name) {
+    const url = "/api/champions/?name=" + name;
     return fetch(url, { headers: { Accept: "application/json" } })
         .then(function(resposta) {
             if (resposta.status === 200) {

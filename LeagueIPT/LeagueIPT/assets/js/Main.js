@@ -13,6 +13,21 @@
 
         }
 
+        const divPrincipal = document.querySelector("#main");
+        const input = document.querySelector("search-field");
+        input.addEventListener('input',
+            function (evt) {
+                var filtro = input.value;
+                divPrincipal.innerHTML = "";
+                debugger;
+                if (filtro.length === 0) {
+                    load();
+                } else {
+                    getChamps(name);
+                }
+
+            });
+
         /**
          *
          *
@@ -42,7 +57,6 @@
 
                             });
                     });
-                //teste
                 a.appendChild(img);
                 mainDiv.appendChild(a);
             }

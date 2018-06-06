@@ -218,6 +218,8 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\Main.js" />
     <Content Include="assets\js\Video-Parallax-Background.js" />
+    <Content Include="assets\music\ImagineDragonsLol.mp3" />
+    <Content Include="assets\music\lolMusic.mp3" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

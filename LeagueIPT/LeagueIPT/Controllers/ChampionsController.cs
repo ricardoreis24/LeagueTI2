@@ -22,8 +22,6 @@ namespace LeagueIPT.Controllers
                     Name = c.Nome
                 })
                 .ToList();
-
-
             return Ok(champs);
         }
 
@@ -75,9 +73,7 @@ namespace LeagueIPT.Controllers
                         }).ToList()
                 }).FirstOrDefault();
 
-
             if (champion == null) return NotFound();
-
             return Ok(champion);
         }
 
@@ -98,7 +94,6 @@ namespace LeagueIPT.Controllers
                     champi.R
                 });
 
-
             return Ok(habilidade);
         }
 
@@ -117,8 +112,6 @@ namespace LeagueIPT.Controllers
                     champio.Nome2,
                     champio.Img2
                 });
-
-
             return Ok(skin);
         }
     }
