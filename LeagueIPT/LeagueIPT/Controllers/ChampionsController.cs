@@ -6,22 +6,41 @@ using LeagueIPT.Models;
 
 namespace LeagueIPT.Controllers
 {
+
     public class ChampionsController : ApiController
     {
         private readonly AppBD _db = new AppBD();
 
-        [HttpGet]
-        [Route("api/champions")]
-        public IHttpActionResult GetChamps()
+        [HttpGet, Route("api/champions")]
+        public IHttpActionResult GetChamps(string name = "")
         {
-            var champs = _db.Champions
-                .Select(c => new GetChamps
-                {
-                    ID = c.ID,
-                    Pic = c.ProfilePic,
-                    Name = c.Nome
-                })
-                .ToList();
+            object champs;
+            if (name == "")
+            {
+                champs = _db.Champions
+                    .Select(c => new GetChamps
+                    {
+                        ID = c.ID,
+                        Pic = c.ProfilePic,
+                        Name = c.Nome
+                    })
+                    .ToList();
+            }
+            else
+            {
+                champs = _db.Champions
+                    .Where(c => c.Nome.ToLower().Contains(name.ToLower()))
+                    .Select(c => new GetChamps
+                    {
+                        ID = c.ID,
+                        Pic = c.ProfilePic,
+                        Name = c.Nome
+                    })
+                    .ToList();
+            }
+
+
+
             return Ok(champs);
         }
 
@@ -82,7 +101,10 @@ namespace LeagueIPT.Controllers
         public IHttpActionResult GetAbilities(int? id)
         {
             var champion = _db.Champions.Find(id);
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                return BadRequest();
+            }
 
             var habilidade = champion.ListaHabilidades
                 .Select(champi => new
@@ -102,7 +124,10 @@ namespace LeagueIPT.Controllers
         public IHttpActionResult GetSkins(int? id)
         {
             var champion = _db.Champions.Find(id);
-            if (id == null) return BadRequest();
+            if (id == null)
+            {
+                return BadRequest();
+            }
 
             var skin = champion.ListaSkins
                 .Select(champio => new

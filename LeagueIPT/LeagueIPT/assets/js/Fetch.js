@@ -1,6 +1,12 @@
 ﻿
 function getChamps(name) {
-    const url = "/api/champions/?name=" + name;
+    let url;
+    if (name == null) {
+        url = "/api/champions/";
+    }
+    else {
+        url = "/api/champions/?name=" + name;
+    }
     return fetch(url, { headers: { Accept: "application/json" } })
         .then(function(resposta) {
             if (resposta.status === 200) {
@@ -8,7 +14,8 @@ function getChamps(name) {
             } else {
                 return Promise.reject(new Error("Erro ao obter champs"));
             }
-        });
+            });
+    
 
 }
 

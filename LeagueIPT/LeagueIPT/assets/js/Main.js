@@ -12,18 +12,19 @@
             loading = setTimeout(ecrachamps, 300);
 
         }
-
-        const divPrincipal = document.querySelector("#main");
-        const input = document.querySelector("search-field");
+        
+        const divPrincipal = document.querySelector("#conteudo");
+        const input = document.querySelector("#search-field");
         input.addEventListener('input',
-            function (evt) {
+            async function () {
                 var filtro = input.value;
                 divPrincipal.innerHTML = "";
-                debugger;
                 if (filtro.length === 0) {
                     load();
                 } else {
-                    getChamps(name);
+                    const champion = await getChamps(filtro);
+                    mostrarChamps(champion);
+
                 }
 
             });
@@ -34,9 +35,16 @@
          * @param {Array<{ id: string, Pic: string }>} champs
          */
         function mostrarChamps(champs) {
+            const mainDiv = document.querySelector("#conteudo");
 
-            for (let champ of champs) {
-                const mainDiv = document.querySelector("#conteudo");
+            if (champs == null || champs.length === 0) {
+                const h1 = document.createElement("h1");
+                h1.textContent = "No champions were found.";
+                
+                mainDiv.appendChild(h1);
+            }
+
+            for (var champ of champs) {
                 const a = document.createElement("a");
                 a.setAttribute("style",
                     "height: 80px; margin-bottom:25px; margin-left:12px;margin-right:12px;width:80px;");
@@ -44,9 +52,10 @@
                 img.setAttribute("style", "width:80px");
                 img.setAttribute("src", champ.Pic);
                 img.setAttribute("title", champ.Name);
+                img.setAttribute("id", champ.ID);
                 img.addEventListener("click",
-                    function() {
-                        getDetalhes(champ.ID).then(function (result) {
+                    function(evt) {
+                        getDetalhes(evt.target.id).then(function (result) {
                             const emptyDiv = document.querySelector("#champion");
                                 emptyDiv.classList.add("hide");
                                 detalhes(result);
@@ -60,6 +69,8 @@
                 a.appendChild(img);
                 mainDiv.appendChild(a);
             }
+
+
         }
 
         function detalhes(champion) {
@@ -230,6 +241,7 @@
 
             const imgType = document.createElement("img");
             imgType.setAttribute("src", champion.Job);
+            imgType.setAttribute("title", champion.Role);
             imgType.setAttribute("width", "101px");
             typeImg.appendChild(imgType);
 
